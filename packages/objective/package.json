@@ -3,6 +3,9 @@
   "version": "1.0.2-alpha.0",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -25,5 +28,6 @@
     "jest": "^26.2.2",
     "sqlite3": "^5.0.0",
     "typescript": "^3.9.7"
-  }
+  },
+  "gitHead": "e3983a3fe02ecaa78f8d003d21af206b9bc327ff"
 }

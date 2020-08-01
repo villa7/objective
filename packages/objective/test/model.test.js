@@ -1,6 +1,6 @@
-const objective = require('../src/index')
+const objectively = require('../src/index')
 const knexInstance = require('./knex')
-const o = objective(knexInstance)
+const o = objectively(knexInstance)
 
 describe('basic', () => {
   beforeEach(() => {

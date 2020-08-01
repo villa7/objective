@@ -2,7 +2,7 @@ import Knex from "knex"
 import { ModelProperties, ModelStaticProperties } from './model'
 import Builder from './builder'
 
-class Objective {
+class Objectively {
   Models: { [key: string]: Builder } = {}
   knexInstance: Knex
 
@@ -20,4 +20,4 @@ class Objective {
   }
 }
 
-module.exports = (knexInstance: Knex) => new Objective(knexInstance)
+module.exports = (knexInstance: Knex) => new Objectively(knexInstance)

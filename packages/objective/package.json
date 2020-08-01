@@ -1,5 +1,5 @@
 {
-  "name": "@objective/core",
+  "name": "@objectively/core",
   "version": "1.0.3-alpha.0",
   "description": "",
   "main": "index.js",
@@ -29,5 +29,5 @@
     "sqlite3": "^5.0.0",
     "typescript": "^3.9.7"
   },
-  "gitHead": "e3983a3fe02ecaa78f8d003d21af206b9bc327ff"
+  "gitHead": "490714ca54f7b8ab652e6a13f0741779a3a890fc"
 }

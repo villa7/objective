@@ -38,9 +38,6 @@ describe('basic', () => {
 
     const res = await model.where({ name: 'bar' }).first()
     let r = await res.role
-    console.log(r)
-    console.log(r.color)
-    r = await res.role
     console.log(r.color)
     // console.log(res.id, res.name)
   })

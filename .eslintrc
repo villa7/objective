@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "standard",
+    "plugin:@typescript-eslint/eslint-recommended"
+  ],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "settings": {},
+  "rules": {
+    "space-before-function-paren": 0,
+    "no-unused-vars": "warn"
+  }
+}
